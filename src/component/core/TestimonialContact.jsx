@@ -36,7 +36,7 @@ const TestimonialContact = () => {
       </div>
 
       {/* Right Section: Contact Information */}
-      <div className="md:w-1/2 w-full p-4 bg-white rounded-lg shadow-md">
+      <div className="md:w-1/2 w-full p-4 ">
         <h2 className="text-xl font-semibold text-red-700">CONTACT ASTROLOGER ANKIT SHARMA</h2>
         <p className="text-gray-700 italic mt-2">From Any Corner of the World (24*7)</p>
 

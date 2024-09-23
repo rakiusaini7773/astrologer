@@ -4,10 +4,10 @@ import ContactForm from './common/ContactForm';
 
 const MainSection = () => {
   return (
-    <div className="relative w-full min-h-screen flex flex-col lg:flex-row bg-orange-200">
+    <div className="relative w-full flex flex-col lg:flex-row bg-orange-200">
       {/* Responsive Container for YouTube Thumbnail */}
       <div className="flex-1 flex justify-center items-center bg-yellow-600 p-4 lg:p-8">
-        <div className="w-full lg:flex-1 h-[50vh] lg:h-auto">
+        <div className="w-full lg:flex-1">
           <YouTubeThumbnail />
         </div>
       </div>

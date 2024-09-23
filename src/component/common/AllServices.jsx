@@ -1,0 +1,122 @@
+import React from 'react'
+
+const AllServices = () => {
+    placesNames: [
+        { placeTitle: "Vashikaran Services Near Me" },
+        { placeTitle: "What Happens after Vashikaran?" },
+        { placeTitle: "Positive Love Vashikaran" },
+        { placeTitle: "Vashikaran Remedies" },
+        { placeTitle: "Get your Boyfriend Back" },
+        { placeTitle: "Vashikaran for Wife" },
+        { placeTitle: "Mohini Vashikaran" },
+        { placeTitle: "Kamakhya Vashikaran Shabar Mantra" },
+        { placeTitle: "Radha Krishna Mantra for Love Marriage Success" },
+        { placeTitle: "Vashikaran/Astrology Services to NRI" },
+        { placeTitle: "Vashikaran Meaning" },
+        { placeTitle: "Remove Vashikaran from Someone" },
+        { placeTitle: "Vashikaran Specialist Near Me" },
+        { placeTitle: "Vashikaran Process" },
+        { placeTitle: "Vashikaran for a Good Cause" },
+        { placeTitle: "Online Vashikaran Specialist" },
+        { placeTitle: "Vashikaran Totke" },
+        { placeTitle: "Get your Girlfriend Back" },
+        { placeTitle: "Vashikaran for Lost Love" },
+        { placeTitle: "Mohini Vashikaran Specialist India" },
+        { placeTitle: "Mohini Mantra for Boyfriend" },
+        { placeTitle: "What is Vashikaran Mantra" },
+        { placeTitle: "Vashikaran Success Rate" },
+        { placeTitle: "Vashikaran Solutions" },
+        { placeTitle: "Vashikaran Pooja and Homam" },
+        { placeTitle: "Vashikaran Removal Solution" },
+        { placeTitle: "Vashikaran Tilak" },
+        { placeTitle: "Does Vashikaran Work?" },
+        { placeTitle: "Vashikaran Expert" },
+        { placeTitle: "No. 1 Vashikaran Expert" },
+        { placeTitle: "Vashikaran for Husband" },
+        { placeTitle: "Love Vashikaran Specialist India" },
+        { placeTitle: "Mohini Mantra" },
+        { placeTitle: "Mohini Mantra for Girlfriend" },
+        { placeTitle: "Black Magic Removal Specialist" },
+        { placeTitle: "Vashikaran Success Stories" },
+        { placeTitle: "Vashikaran Symptoms or Signs" },
+        { placeTitle: "Vashikaran by Photo" },
+        { placeTitle: "Vashikaran Removal Specialist in Mumbai" },
+        { placeTitle: "Love Vashikaran Specialist" },
+        { placeTitle: "Get Lost Love Back by Vashikaran" },
+        { placeTitle: "Love Dispute Solution" },
+        { placeTitle: "Love Marriage Specialist Astrologer" },
+        { placeTitle: "Disturbed Marriage Life" },
+        { placeTitle: "Divorce Problem Solution" },
+        { placeTitle: "How to Reconcile with Ex-wife after Divorce?" },
+        { placeTitle: "Best Extramarital Affairs Problem Solution Astrologer" },
+        { placeTitle: "Love Vashikaran Specialist Near Me" },
+        { placeTitle: "Love Vashikaran Mantra" },
+        { placeTitle: "Relationship Problem Solution" },
+        { placeTitle: "Love Marriage Specialist Near Me" },
+        { placeTitle: "Inter Caste Marriage Problems" },
+        { placeTitle: "Best Ways to Prevent Divorce" },
+        { placeTitle: "How to Reconcile with Ex-husband after Divorce?" },
+        { placeTitle: "Ex Love Vashikaran Specialist" },
+        { placeTitle: "Love Problem Solution" },
+        { placeTitle: "Love Marriage" },
+        { placeTitle: "Best Love Marriage Specialist Astrologer in India" },
+        { placeTitle: "Breakup Problem Solution" },
+        { placeTitle: "Reconcile after Divorce" },
+        { placeTitle: "Extramarital Affairs Problem Solution" },
+        { placeTitle: "Vashikaran Removal Specialist in Delhi" },
+        { placeTitle: "Vashikaran Removal Specialist in Agra" },
+        { placeTitle: "Vashikaran Removal Specialist in Bhubaneswar" },
+        { placeTitle: "Vashikaran Removal Specialist in Chandigarh" },
+        { placeTitle: "Vashikaran Removal Specialist in Chennai" },
+        { placeTitle: "Vashikaran for Boyfriend" },
+        { placeTitle: "Vashikaran for Girl" },
+        { placeTitle: "Gents Vashikaran" },
+        { placeTitle: "Best Love Vashikaran Videos" },
+        { placeTitle: "Which Day is Best for Vashikaran?" },
+        { placeTitle: "Best Vashikaran Specialist in Norway" },
+        { placeTitle: "Vashikaran Mantra in Hindi" },
+        { placeTitle: "Love Vashikaran Specialist" },
+        { placeTitle: "Vashikaran Removal Specialist in Patna" },
+        { placeTitle: "Vashikaran Removal Specialist in Ludhiana" },
+        { placeTitle: "Vashikaran Removal Specialist in Panipat" },
+        { placeTitle: "Vashikaran Removal Specialist in Shimla" },
+        { placeTitle: "Vashikaran Removal Specialist in Bangalore" },
+        { placeTitle: "Vashikaran for Men" },
+        { placeTitle: "Best Girl or Woman Vashikaran Specialist" },
+        { placeTitle: "Vashikaran for Parents for a Good Cause" },
+        { placeTitle: "Who is the Best Vashikaran Specialist?" },
+        { placeTitle: "How to Know if Vashikaran is Done?" },
+        { placeTitle: "Get Ex Back by Vashikaran" },
+        { placeTitle: "Powerful Vashikaran Beej Mantra" },
+        { placeTitle: "Love Vashikaran Specialist Near Me" },
+        { placeTitle: "Vashikaran Removal Specialist in Jaipur" },
+        { placeTitle: "Vashikaran Removal Specialist in Ahmedabad" },
+        { placeTitle: "Vashikaran Removal Specialist in Jodhpur" },
+        { placeTitle: "Vashikaran Removal Specialist in Ghaziabad" },
+        { placeTitle: "Fast Vashikaran" },
+        { placeTitle: "Best Boy or Man Vashikaran Specialist" },
+        { placeTitle: "Ladies Vashikaran" },
+        { placeTitle: "Best Vashikaran Videos" },
+        { placeTitle: "Who is the Best Vashikaran Specialist in Karnataka?" },
+        { placeTitle: "Vashikaran Services in Kolkata" },
+        { placeTitle: "Vashikaran Mantra" },
+        { placeTitle: "Immediate Vashikaran Mantra" },
+        { placeTitle: "Ex Love Vashikaran Specialist" }
+      ]
+  return (
+    <div className="bg-red-400 p-4 border-2 border-black m-2">
+    <ul className="grid custom-md:grid-cols-3 gap-4">
+      {Content[0].placesNames.map((item, index) => (
+        <li>
+          <a href="" key={index}>
+            {" "}
+            {Content[0].placesNames[index].placeTitle}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+  )
+}
+
+export default AllServices
